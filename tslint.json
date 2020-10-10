@@ -1,0 +1,19 @@
+{
+  "rulesDirectory": ["tslint-plugin-prettier"],
+  "extends": [
+    "tslint-config-standard",
+    "tslint-react",
+    "tslint-config-prettier"
+  ],
+  "rules": {
+    "radix": false,
+    "no-extra-boolean-cast": false,
+    "jsx-no-lambda": false,
+    "jsdoc-format": false,
+    "no-floating-promises": false,
+    "deprecation": false,
+    "no-eval": false,
+    "variable-name": false,
+    "jsx-boolean-value": false
+  }
+}
